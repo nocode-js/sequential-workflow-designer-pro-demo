@@ -15,11 +15,17 @@ Features:
 
 ## 🚀 Installation
 
+Create a new auth token for your GitHub account with the `read:packages` permission. Next, create `.npmrc` file in the root folder of your project and pass there your auth token.
+
+```
+//npm.pkg.github.com/:_authToken=YOUR_AUTH_TOKEN
+```
+
 Install the following dependencies.
 
 ```
 npm i sequential-workflow-designer
-npm i sequential-workflow-designer-pro
+npm i @nocode-js/sequential-workflow-designer-pro
 ```
 
 Add CSS files:
@@ -28,14 +34,17 @@ Add CSS files:
 import 'sequential-workflow-designer/css/designer.css';
 import 'sequential-workflow-designer/css/designer-light.css';
 import 'sequential-workflow-designer/css/designer-dark.css';
-import 'sequential-workflow-designer-pro/css/designer-pro.css';
-import 'sequential-workflow-designer-pro/css/designer-pro-light.css';
-import 'sequential-workflow-designer-pro/css/designer-pro-dark.css';
+import '@nocode-js/sequential-workflow-designer-pro/css/designer-pro.css';
+import '@nocode-js/sequential-workflow-designer-pro/css/designer-pro-light.css';
+import '@nocode-js/sequential-workflow-designer-pro/css/designer-pro-dark.css';
 ```
 
 Pass the pro extension to a start configuration of the designer.
 
 ```ts
+import { Designer, DesignerConfiguration } from 'sequential-workflow-designer';
+import { ProDesignerExtension } from '@nocode-js/sequential-workflow-designer-pro';
+
 const config: DesignerConfiguration = {
   // ...
   extensions: [ProDesignerExtension.create()]
