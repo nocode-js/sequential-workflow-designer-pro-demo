@@ -11,7 +11,8 @@ Features:
 
 ## 👀 Examples
 
-* 🤩 [Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/pro-steps/public/)
+* 🤩 [Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/pro-components.html)
+* 👈 [Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/goto.html)
 
 ## 🚀 Installation
 
@@ -56,9 +57,11 @@ That's it! Check [this simple demo app](examples/pro-steps).
 
 ## 💡 License
 
+There are two kinds of licences.
+
 | License          | Details |
 | ---------------- | - |
-| 🍰 Standard      | 1 application, up to 2 developers |
-| 🎂 Enterprise    | unlimited applications, unlimited developers |
+| 🍰 Standard      | **1** application<br />**up to 2** developers<br />1 year updates |
+| 🎂 Enterprise    | **unlimited** applications<br />**unlimited** developers<br />1 year updates |
 
-Read more [here](./LICENSE). To purchase a license please [contact us](https://n4no.com).
+Read more [here](./LICENSE). To purchase a license please [📪 contact us](https://n4no.com).
