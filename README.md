@@ -8,11 +8,13 @@ Features:
   * Icon Step
   * Interrupting Icon Step
   * Interrupting Task Step
+  * Folder Step
 
 ## 👀 Examples
 
 * 🤩 [Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/pro-components.html)
 * 👈 [Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/goto.html)
+* 📁 [Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/folders.html)
 
 ## 🚀 Installation
 
@@ -53,7 +55,7 @@ const config: DesignerConfiguration = {
 Designer.create(placeholder, definition, config);
 ```
 
-That's it! Check [this simple demo app](examples/pro-steps).
+That's it!
 
 ## 💡 License
 
