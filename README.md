@@ -66,4 +66,4 @@ There are two kinds of licences.
 | 🍰 Standard      | **1** application<br />**up to 2** developers<br />1 year updates |
 | 🎂 Enterprise    | **unlimited** applications<br />**unlimited** developers<br />1 year updates |
 
-Read more [here](./LICENSE). To purchase a license please [📪 contact us](https://n4no.com).
+Read more [here](./LICENSE). To purchase a license please [🛒 check this page](https://nocode-js.n4no.com/sequential-workflow-designer-pro-pricing).
