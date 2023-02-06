@@ -9,12 +9,14 @@ Features:
   * Interrupting Icon Step
   * Interrupting Task Step
   * Folder Step
+* Modern wheel mode (optional)
 
 ## 👀 Examples
 
-* 🤩 [Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/pro-components.html)
-* 👈 [Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/goto.html)
-* 📁 [Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/folders.html)
+* [🤩 Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/pro-components.html)
+* [👈 Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/goto.html)
+* [📁 Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/folders.html)
+* [⭕ Wheel Mode](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/wheel-mode.html)
 
 ## 🚀 Installation
 
@@ -42,15 +44,18 @@ import '@nocode-js/sequential-workflow-designer-pro/css/designer-pro-light.css';
 import '@nocode-js/sequential-workflow-designer-pro/css/designer-pro-dark.css';
 ```
 
-Pass the pro extension to a start configuration of the designer.
+The pro package is modular. You can choose features what you want to activate.
 
 ```ts
 import { Designer, DesignerConfiguration } from 'sequential-workflow-designer';
-import { ProDesignerExtension } from '@nocode-js/sequential-workflow-designer-pro';
+import { StepsProExtension, ModernWheelProExtension } from '@nocode-js/sequential-workflow-designer-pro';
 
 const config: DesignerConfiguration = {
   // ...
-  extensions: [ProDesignerExtension.create()]
+  extensions: [
+    StepsProExtension.create(),
+    ModernWheelProExtension.create()
+  ]
 };
 Designer.create(placeholder, definition, config);
 ```
