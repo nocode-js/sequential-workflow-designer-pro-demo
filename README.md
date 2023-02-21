@@ -10,6 +10,8 @@ Features:
   * Interrupting Task Step
   * Folder Step
 * Modern wheel mode (optional)
+* Minimal root component (optional)
+* Conditionals placeholders (optional)
 
 ## 👀 Examples
 
@@ -17,6 +19,7 @@ Features:
 * [👈 Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/goto.html)
 * [📁 Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/folders.html)
 * [⭕ Wheel Mode](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/wheel-mode.html)
+* [🐭 Minimal Root Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/minimal-root-component.html)
 
 ## 🚀 Installation
 
