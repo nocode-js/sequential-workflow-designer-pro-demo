@@ -12,14 +12,18 @@ Features:
 * Modern wheel mode (optional)
 * Minimal root component (optional)
 * Conditionals placeholders (optional)
+* External toolbox (optional)
+* External control bar (optional)
+* External editor (optional)
 
 ## 👀 Examples
 
-* [🤩 Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/pro-components.html)
-* [👈 Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/goto.html)
-* [📁 Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/folders.html)
-* [⭕ Wheel Mode](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/wheel-mode.html)
-* [🐭 Minimal Root Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/examples/webpack/public/minimal-root-component.html)
+* [🤩 Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/pro-components.html)
+* [👈 Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/goto.html)
+* [📁 Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/folders.html)
+* [⭕ Wheel Mode](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/wheel-mode.html)
+* [🐭 Minimal Root Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/minimal-root-component.html)
+* [🦁 External UI Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/external-ui-components.html)
 
 ## 🚀 Installation
 

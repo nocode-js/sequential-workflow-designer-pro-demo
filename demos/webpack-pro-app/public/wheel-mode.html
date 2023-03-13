@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>⭕ Wheel Mode - Sequential Workflow Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="icon" href="data:,">
+
+	<link rel="stylesheet" href="./assets/common.css">
+	<style>
+		html, body {width: 100vw; height: 100vh;}
+		body {display: flex; flex-direction: column;}
+		.sides {flex: 1; display: flex; flex-direction: column;}
+		.sides .side {flex: 1; display: flex; flex-direction: column;}
+		.sides .side-title {padding: 15px; text-align: center;}
+		.sides .side .designer {flex: 1;}
+
+		.sqd-editor {padding: 10px;}
+		.sqd-theme-light .sqd-type-goto .sqd-step-task-rect {fill: #E6F2FF;}
+	</style>
+</head>
+<body>
+	<header class="title-bar">
+		<div class="column">
+			<h1>⭕ Wheel Mode</h1>
+		</div>
+		<div class="column text-end flex-1">
+			<a href="https://github.com/nocode-js/sequential-workflow-designer-pro-demo" target="_blank">GitHub</a>
+		</div>
+	</header>
+
+	<div class="sides">
+		<div class="side">
+			<div class="side-title">
+				Classic Mode (use wheel to zoom)
+			</div>
+			<div id="designer1" class="designer"></div>
+		</div>
+		<div class="side">
+			<div class="side-title">
+				Modern Mode (press CTRL to zoom by wheel, use 2 fingers on touchbar to move)
+			</div>
+			<div id="designer2" class="designer"></div>
+		</div>
+	</div>
+
+	<script src="./builds/wheel-mode.js"></script>
+</body>
+</html>
