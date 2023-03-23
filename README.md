@@ -2,19 +2,22 @@
 
 Pro extensions for [Sequential Workflow Designer](https://github.com/nocode-js/sequential-workflow-designer). Build your no-code app faster!
 
-Features:
+This package contains:
 
-* **Pro Components**
-  * Icon Step
-  * Interrupting Icon Step
-  * Interrupting Task Step
-  * Folder Step
-* Modern wheel mode (optional)
-* Minimal root component (optional)
-* Conditionals placeholders (optional)
-* External toolbox (optional)
-* External control bar (optional)
-* External editor (optional)
+* **Pro components:**
+  * Icon step component
+  * Interrupting icon step component
+  * Interrupting task step component
+  * Folder step component
+* **Pro badges:**
+  * Counter badge
+* **Optional features:**
+  * Modern wheel mode
+  * Minimal root component
+  * Conditional placeholders
+  * External toolbox
+  * External control bar
+  * External editor
 
 ## 👀 Examples
 
@@ -25,7 +28,8 @@ Features:
 * [🐭 Minimal Root Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/minimal-root-component.html)
 * [🦁 External UI Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/external-ui-components.html)
 * [👋 Custom Dragged Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-dragged-component.html)
-* [🎩 Custom View Port](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-view-port.html)
+* [🔰 Badges](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/badges.html)
+* [🎩 Custom Viewport](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-viewport.html)
 
 ## 🚀 Installation
 
