@@ -9,12 +9,14 @@ This package contains:
   * Interrupting icon step component
   * Interrupting task step component
   * Folder step component
+  * Large task step component
 * **Pro badges:**
   * Counter badge
 * **Optional features:**
   * Modern wheel mode
   * Minimal root component
   * Conditional placeholders
+  * Clickable placeholders
   * External toolbox
   * External control bar
   * External editor
