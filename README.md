@@ -20,6 +20,7 @@ This package contains:
   * External toolbox
   * External control bar
   * External editor
+  * Dot or cross grid
 
 ## 👀 Examples
 
@@ -27,11 +28,13 @@ This package contains:
 * [👈 Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/goto.html)
 * [📁 Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/folders.html)
 * [⭕ Wheel Mode](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/wheel-mode.html)
+* [💠 Grid](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/grid.html)
 * [🐭 Minimal Root Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/minimal-root-component.html)
 * [🦁 External UI Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/external-ui-components.html)
 * [👋 Custom Dragged Component](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-dragged-component.html)
 * [🔰 Badges](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/badges.html)
 * [🎩 Custom Viewport](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-viewport.html)
+* [🛎 Clickable Placeholder](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/clickable-placeholder.html)
 
 ## 🚀 Installation
 
@@ -86,4 +89,4 @@ There are two kinds of licences.
 | 🍰 Standard      | **1** application<br />**up to 2** developers<br />1 year updates |
 | 🎂 Enterprise    | **unlimited** applications<br />**unlimited** developers<br />1 year updates |
 
-Read more [here](./LICENSE). To purchase a license please [🛒 check this page](https://nocode-js.n4no.com/sequential-workflow-designer-pro-pricing).
+Read more [here](./LICENSE). To purchase a license please [🛒 check this page](https://nocode-js.com/sequential-workflow-designer-pro-pricing).
