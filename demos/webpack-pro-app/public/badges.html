@@ -10,7 +10,10 @@
 	<style>
 		html, body {width: 100vw; height: 100vh;}
 		body {display: flex; flex-direction: column;}
-		#designer {flex: 1;}
+		#main {flex: 1; display: flex; flex-direction: column;}
+		#control {text-align: center; color: #FFF; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); background: #269526; background: linear-gradient(135deg, #269526 0%, #8FB152 100%);}
+		#control label {display: inline-block; padding: 10px 5px;}
+		#designer {flex: 1; overflow: hidden;}
 	</style>
 </head>
 <body>
@@ -19,14 +22,38 @@
 			<h1>🔰 Badges (Pro)</h1>
 		</div>
 		<div class="column">
-			<button id="pauseButton"></button>
+			Theme:
+			<select id="theme">
+				<option value="light">Light</option>
+				<option value="dark">Dark</option>
+			</select>
 		</div>
 		<div class="column text-end flex-1">
 			<a href="https://github.com/nocode-js/sequential-workflow-designer-pro-demo" target="_blank">GitHub</a>
 		</div>
 	</header>
 
-	<div id="designer"></div>
+	<div id="main">
+		<div id="control">
+			<label>
+				Badge
+				<select id="badge">
+					<option value="invalid">Invalid</option>
+					<option value="counter">Counter</option>
+					<option value="counter,invalid">Counter &amp; Invalid</option>
+					<option value="loading:loading">Loading: loading</option>
+					<option value="loading:loaded">Loading: loaded</option>
+					<option value="loading:error">Loading: error</option>
+					<option value="none">None</option>
+				</select>
+			</label>
+			<label>
+				<input type="checkbox" id="play" checked>
+				Play
+			</label>
+		</div>
+		<div id="designer"></div>
+	</div>
 
 	<script src="./builds/badges.js"></script>
 </body>
