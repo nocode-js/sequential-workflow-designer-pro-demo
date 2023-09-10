@@ -10,13 +10,12 @@ This package contains:
   * Interrupting task step component
   * Folder step component
   * Large task step component
-* **Pro badges:**
-  * Counter badge
 * **Optional features:**
   * Modern wheel mode
   * Minimal root component
   * Conditional placeholders
   * Clickable placeholders
+  * Extra badges
   * External toolbox
   * External control bar
   * External editor
@@ -25,6 +24,8 @@ This package contains:
 ## 👀 Examples
 
 * [🤩 Pro Components](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/pro-components.html)
+* [🍬 Custom Theme Flat](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-theme-flat.html)
+* [🌹 Custom Step Types](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/custom-step-types.html)
 * [👈 Goto](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/goto.html)
 * [📁 Folders](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/folders.html)
 * [⭕ Wheel Mode](https://nocode-js.github.io/sequential-workflow-designer-pro-demo/demos/webpack-pro-app/public/wheel-mode.html)

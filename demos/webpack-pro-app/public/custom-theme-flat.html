@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>🍬 Custom Theme Flat - Sequential Workflow Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="icon" href="./assets/favicon.ico">
+
+	<link rel="stylesheet" href="./assets/common.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+		html, body {margin: 0; padding: 0; width: 100vw; height: 100vh; font: 14px/1.5em 'PT Sans', sans-serif;}
+		body {display: flex; flex-direction: column;}
+		#designer {flex: 1;}
+
+		#toolboxChoice {position: absolute; z-index: 99999; top: 50%; left: 50%; width: 40vw; height: 30vh; margin: -15vh 0 0 -20vw; box-sizing: border-box; display: flex; align-items: center; justify-content: center; background: #e6e6e6; border-radius: 10px; border: 1px solid #A4A4A4; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);}
+		@media only screen and (max-width: 700px) {
+			#toolboxChoice {width: 80vw; margin-left: -40vw;}
+		}
+		#toolboxChoice.hidden {display: none;}
+		#toolboxChoice button {margin: 5px; padding: 6px 10px; background: #FFF; border: 1px solid #A4A4A4; cursor: pointer; border-radius: 5px;}
+		#toolboxChoice button:hover {opacity: 0.5;}
+	</style>
+</head>
+<body>
+	<header class="title-bar">
+		<div class="column flex-1 hidden-mobile">
+			<h1>🍬 Custom Theme Flat (Pro)</h1>
+		</div>
+		<div class="column">
+			<button id="toggleStatisticsButton">Show/hide statistics</button>
+		</div>
+		<div class="column text-end flex-1">
+			<a href="https://github.com/nocode-js/sequential-workflow-designer-pro-demo" target="_blank">GitHub</a>
+		</div>
+	</header>
+
+	<div id="designer"></div>
+
+	<div id="toolboxChoice" class="hidden">
+		<button data-type="task">Task</button>
+		<button data-type="largeTask">Large Task</button>
+		<button data-type="if">If</button>
+		<button data-type="cancel">Cancel</button>
+	</div>
+
+	<script src="./builds/custom-theme-flat.js"></script>
+</body>
+</html>
